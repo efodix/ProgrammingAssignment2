@@ -4,7 +4,7 @@
 ## then the cachesolve should retrieve the inverse from the cache.
 
 ##This function creates a special "matrix" object that can cache its inverse.
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
      m <- NULL
      #set the matrix
      set <- function(y) {
